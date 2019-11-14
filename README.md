@@ -9,7 +9,8 @@
 
 启动
 ```python
-python3 xmlTomd.py
+python3 xmlTomd.py ./xml_data/new.xml /user/new.xml new.xml
 ```
+> 注意只指定文件名, 需要提前将文件放入xml_data文件夹中
 
 转换完成后, 会生成md_data文件夹, 将生成的文件直接放入到git page项目中即可使用
